@@ -8,7 +8,7 @@ export default class MyHeader extends Component {
 constructor(props){
 super(props)
 this.state = {
-/*userId : firebase.auth().currentUser.email,*/
+userId : firebase.auth().currentUser.email,
 value :""
 }
 }
